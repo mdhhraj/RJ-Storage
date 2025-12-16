@@ -1,4 +1,3 @@
-cat > .github/FUNDING.yml << 'EOF'
-github: [mdhhraj]
-custom: ['https://buycoffee.com/hasibulhasan']
-EOF
+github: mdhhraj
+custom: 
+  - 'https://hasibulhasan.holeiholo.com/donate'
