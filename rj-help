@@ -1,0 +1,29 @@
+ 
+show_help() {
+    echo -e "
+🎯 RJ-Storage v1.0.0 - Action List"
+    echo "=================================="
+    cat << EOF
+📱 Storage Management Commands:
+• mv-app.package    - Move app to SD
+• mv-down / down-sd - Sweep Downloads to SD  
+• mv-filename       - Move specific file to SD
+• mv-foldername     - Move folder to SD
+• mv-media          - Move Music/Pictures/Videos
+• mv-DCIM           - Move Camera photos
+
+🧹 Cleaning Commands:
+• del-tmp-int       - Delete internal temp files
+• del-tmp-sd        - Delete SD temp files
+
+📊 Analysis Commands:
+• qck-hlt           - Quick health check
+• app-size          - Show largest apps
+• dupe-scan         - Find duplicate files
+
+ℹ️  Help Commands:
+• rj-help           - Show this help
+• rj-commands       - Show short commands
+EOF
+    echo "$SUCCESS"
+}
