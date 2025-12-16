@@ -1,0 +1,4 @@
+cat > .github/FUNDING.yml << 'EOF'
+github: [mdhhraj]
+custom: ['https://buycoffee.com/hasibulhasan']
+EOF
